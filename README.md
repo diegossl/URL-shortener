@@ -1,38 +1,38 @@
-# Encurtador de URL
+# URL shortener
 
-O Encurtador de URL é uma ferramenta para transformar links de páginas web em um formato menor do que o original, facilitando o compartilhamento na internet.
+The URL Shortener is a tool to transform web page links into a smaller format than the original, facilitating sharing on the internet.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
 npm install
 ```
 
-Finalmente, digite o seguinte comando no terminal para iniciar o servidor:
+Finally, type the following command in the terminal to start the server:
 
 ```bash
 npm start
 ```
-Agora o sistema está pronto para ser utilizado através da rota local:
+The system is now ready to be used via the route:
 
 [http://localhost:3000/url](http://localhost:3000/url)
 
-Basta enviar o link que deseja encurtar para esta rota e será retornar um link compactado.
+Just send the link you want to shorten for this route and a compressed link will be returned.
 
-## Exemplo de entrada de dados:
+## Example of data entry:
 
-Um objeto JSON contendo a URL original que será encurtada.
+A JSON object containing the original URL that will be shortened.
  
 ```javascript
 {
   "url": "https://andrebona.com.br/por-que-o-dolar-se-tornou-a-principal-moeda-no-mercado-internacional/"
 }
 ```
-## Exemplo de saída de dados:
+## Example output:
 
-Um novo link encurtado.
+A new shortened link.
 
 ```javascript
 {
@@ -40,6 +40,6 @@ Um novo link encurtado.
 }
 ```
 
-## Licença
+## License
 
 MIT
