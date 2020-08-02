@@ -10,6 +10,12 @@ To execute the project, it will be necessary to install the dependencies by typi
 npm install
 ```
 
+Then, create a file called **.env** and copy to the contents of the file **.env.exemple**, which already exists in the project and enter your credentials.
+
+Credentials can be obtained from the following website:
+
+[https://www.mongodb.com](https://www.mongodb.com)
+
 Finally, type the following command in the terminal to start the server:
 
 ```bash
